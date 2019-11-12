@@ -21,8 +21,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/MadhuBackUp/Selenium/E_LearningProject/chromedriver_win32/chromedriver.exe"/>
-	<classpathentry kind="lib" path="C:/Users/YEPURIRAO/Downloads/geckodriver-v0.26.0-win64/geckodriver-v0.26.0-win64.zip"/>
-	<classpathentry kind="lib" path="C:/Users/YEPURIRAO/Downloads/IEDriverServer_x64_3.14.0/IEDriverServer.exe"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
