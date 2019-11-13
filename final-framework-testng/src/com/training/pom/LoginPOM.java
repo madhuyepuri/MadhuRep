@@ -39,6 +39,16 @@ public class LoginPOM {
 	@FindBy(id="logout_button")
 	private WebElement logout;
 	
+	@FindBy(className="user-body")
+	private WebElement linkOps;
+	
+	@FindBy(xpath="//*[@id='navbar']/ul[2]/li[2]/ul/li[3]/a")
+	private WebElement Inboxlink;
+	
+	@FindBy(xpath="//*[@id='navbar']/ul[2]/li[2]/ul/li[4]/a")
+	//*[@id="navbar"]/ul[2]/li[2]/ul/li[4]/a
+	private WebElement MyCertificateslink;
+	
 	
 	
 	
@@ -67,5 +77,16 @@ public class LoginPOM {
 	public void clickonLogOut() {
 		this.logout.click();
 	}
+	public String Inboxlink() {
+		return (this.Inboxlink.getText());
+	}
+	public String MyCertificateslink() {
+		return (this.MyCertificateslink.getText());
+	}
+	public String logoutlink() {
+		return (this.logout.getText());
+	}
+	
+	
 	
 }

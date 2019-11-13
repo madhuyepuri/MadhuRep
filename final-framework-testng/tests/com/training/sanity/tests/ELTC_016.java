@@ -1,7 +1,9 @@
 package com.training.sanity.tests;
 
+
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
@@ -60,6 +62,9 @@ public class ELTC_016 {
 		loginPOM.clickLoginBtn(); 
 		screenShot.captureScreenShot("First");
 		loginPOM.moveToUserIcon(Usericon, UsericonClick);
+		System.out.println(loginPOM.Inboxlink());
+		System.out.println(loginPOM.MyCertificateslink());
+		System.out.println(loginPOM.logoutlink());		
 		loginPOM.clickonLogOut();
 	}
 	
