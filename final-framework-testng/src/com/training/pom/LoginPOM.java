@@ -30,10 +30,11 @@ public class LoginPOM {
 	@FindBy(linkText="Inbox")
 	private WebElement InboxLink;
 	
+	@FindBy(className="img-circle")
+	public WebElement Usericon;
+	
 	@FindBy(xpath="//*[@id='navbar']/ul[2]/li[2]/a/span[2]")
-	private WebElement Usericon;
-	@FindBy(xpath="//*[@id='navbar']/ul[2]/li[2]/a/span[2]")
-	private WebElement UsericonClick;
+	public WebElement UsericonClick;
 	
 	@FindBy(id="logout_button")
 	private WebElement logout;
@@ -43,10 +44,11 @@ public class LoginPOM {
 	
 	public void moveToUserIcon(WebElement Usericon, WebElement UsericonClick)
 	{
-		this.Usericon=Usericon;
-		Actions a= new Actions(driver);
-		a.moveToElement(Usericon).build().perform();
-		driver.findElement((By) this.UsericonClick).click();
+//		this.Usericon=Usericon;
+//		Actions a= new Actions(driver);
+//		a.moveToElement(UsericonClick).build().perform();
+		this.Usericon.click();
+		//this.logout.click();
 		
 	}
 	public void sendUserName(String userName) {
@@ -62,4 +64,8 @@ public class LoginPOM {
 	public void clickLoginBtn() {
 		this.loginBtn.click(); 
 	}
+	public void clickonLogOut() {
+		this.logout.click();
+	}
+	
 }
