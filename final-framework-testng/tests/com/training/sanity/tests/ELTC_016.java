@@ -66,6 +66,7 @@ public class ELTC_016 {
 		System.out.println(loginPOM.MyCertificateslink());
 		System.out.println(loginPOM.logoutlink());		
 		loginPOM.clickonLogOut();
+		System.out.println(driver.getTitle());
 	}
 	
 	
