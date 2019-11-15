@@ -87,6 +87,10 @@ public class LoginPOM {
 		return (this.logout.getText());
 	}
 	
-	
+	@FindBy(xpath="//*[@id='coursesCollapse']/div/ul/li[3]/a")
+	private WebElement CourseCatalog;
+	public void ClickonCourseCatalog() {
+		this.CourseCatalog.click();
+	}
 	
 }
