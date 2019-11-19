@@ -142,6 +142,108 @@ private WebElement updatecoursesubmit;
 public void Clickonupdate_course_submit(WebDriver driver)
 {    this.updatecoursesubmit.click();
 }
+//-------for test case ELTC_048
+@FindBy(xpath="//*[@id='tabs-1']/div/div[2]/div[2]/ul/li[2]/a")
+private WebElement addAUser;
+public void clickOnaddAUserLink(WebDriver driver) 
+{
+	this.addAUser.click();
+}
+
+@FindBy(id="firstname")
+private WebElement firstName;
+public void enterFirstName(WebDriver driver, String firstName) 
+{
+	this.firstName.sendKeys(firstName);
+}
+@FindBy(id="lastname")
+private WebElement lastName;
+public void enterLastName(WebDriver driver, String lastName) 
+{
+	this.lastName.sendKeys(lastName);
+}
+@FindBy(id="email")
+private WebElement email;
+public void enterEmail(WebDriver driver, String Email) 
+{
+	this.email.sendKeys(Email);
+}
+@FindBy(id="phone")
+private WebElement phone;
+public void enterPhoneNo(WebDriver driver, String Phone) 
+{
+	this.phone.sendKeys(Phone);
+}
+
+@FindBy(id="username")
+private WebElement userName;
+public void enterUserName(WebDriver driver, String UserName) 
+{
+	this.userName.sendKeys(UserName);
+}
+
+@FindBy(name="password[password_auto]")
+private WebElement enterPwdRadioButton;
+public void SelectPasswordRadioButton(WebDriver driver) 
+{
+	if (!this.enterPwdRadioButton.isSelected())
+	{this.enterPwdRadioButton.click();}
+}
+@FindBy(id="password")
+private WebElement password;
+public void enterPassword(WebDriver driver, String Password) 
+{
+	
+	this.password.sendKeys(Password);
+}
+
+@FindBy(xpath="//*[@id='user_add']/fieldset/div[10]/div[1]/div/button/div/div/div")
+private WebElement profileClick;
+public void clickOnProfile(WebDriver driver) 
+{
+	this.profileClick.click();
+}
+
+@FindBy(xpath="//*[@id='user_add']/fieldset/div[10]/div[1]/div/div/div[2]/ul/li[1]/a/span")
+private WebElement ClickonProfileName;
+public void clickOnProfileName2(WebDriver driver) 
+{
+	this.ClickonProfileName.click();
+}
+//@FindBy(xpath="//*[@id='user_add']/fieldset/div[10]/div[1]/div/div/div[1]/input")
+
+@FindBy(xpath="//*[@id='user_add']/fieldset/div[10]/div[1]/div/div/div[1]/input")
+private WebElement profileDropdown;
+public void selectValueForProfile(WebDriver driver, String Profile)
+{    
+   //Select s= new Select(profileDropdown);
+	//s.selectByValue(Category_Select);
+	//s.selectByVisibleText(Profile);
+   this.profileDropdown.sendKeys(Profile);
+}
+@FindBy(name="submit")
+private WebElement addButton;
+public void clickOnaddButton(WebDriver driver) 
+{
+	this.addButton.click();
+}
+
+@FindBy(xpath="//*[@id='tabs-2']/div/div[2]/div[2]/ul/li[6]/a")
+private WebElement addUsersToCourse;
+public void addUsersToCourseLink(WebDriver driver) 
+{
+	this.addUsersToCourse.click();
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
