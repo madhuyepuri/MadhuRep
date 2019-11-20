@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89914" started-at="2019-11-19T18:24:28 IST" finished-at="2019-11-19T18:25:58 IST">
+  <suite name="Default suite" duration-ms="30856" started-at="2019-11-20T13:42:33 IST" finished-at="2019-11-20T13:43:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89914" started-at="2019-11-19T18:24:28 IST" finished-at="2019-11-19T18:25:58 IST">
-      <class name="com.training.sanity.tests.ELTC_048">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ELTC_048@6321e813]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2019-11-19T18:24:28 IST" finished-at="2019-11-19T18:24:28 IST">
+    <test name="Default test" duration-ms="30856" started-at="2019-11-20T13:42:33 IST" finished-at="2019-11-20T13:43:04 IST">
+      <class name="com.training.sanity.tests.ELTC_046">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ELTC_046@79be0360]" name="setUpBeforeClass" is-config="true" duration-ms="23" started-at="2019-11-20T13:42:33 IST" finished-at="2019-11-20T13:42:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ELTC_048@6321e813]" name="setUp" is-config="true" duration-ms="14404" started-at="2019-11-19T18:24:28 IST" finished-at="2019-11-19T18:24:42 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ELTC_046@79be0360]" name="setUp" is-config="true" duration-ms="17288" started-at="2019-11-20T13:42:33 IST" finished-at="2019-11-20T13:42:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ELTC_048()[pri:0, instance:com.training.sanity.tests.ELTC_048@6321e813]" name="ELTC_048" duration-ms="75440" started-at="2019-11-19T18:24:42 IST" finished-at="2019-11-19T18:25:58 IST">
+        <test-method status="PASS" signature="ELTC_046()[pri:0, instance:com.training.sanity.tests.ELTC_046@79be0360]" name="ELTC_046" duration-ms="13488" started-at="2019-11-20T13:42:50 IST" finished-at="2019-11-20T13:43:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ELTC_048 -->
-      </class> <!-- com.training.sanity.tests.ELTC_048 -->
+        </test-method> <!-- ELTC_046 -->
+      </class> <!-- com.training.sanity.tests.ELTC_046 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
