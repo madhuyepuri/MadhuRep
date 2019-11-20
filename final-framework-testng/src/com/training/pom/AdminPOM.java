@@ -16,7 +16,6 @@ public class AdminPOM
 	private WebDriver driver ; 
 	public  AdminPOM(WebDriver driver) 
 	{
-		
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}

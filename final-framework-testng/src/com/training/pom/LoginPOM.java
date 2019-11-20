@@ -93,4 +93,10 @@ public class LoginPOM {
 		this.CourseCatalog.click();
 	}
 	
+	
+	
+	
+	
+	
+	
 }
